@@ -6,7 +6,7 @@ where it is neccessary to *allocate and free* a lot of objects
 that do not have very big size.
 Memory allocator reserves a block of memory at construction.
 When there will be no available memory then it will allocate
-in *grow coefficient* more memory than in previous time and so on.
+in *grow coefficient* times more memory than in previous time and so on.
 
 ## Features
 * **Extremely fast** when allocating and freeing a lot of objects
